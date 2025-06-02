@@ -1,0 +1,91 @@
+.spotify-profile-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  background-color: #121212;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cover-photo {
+  width: 100%;
+}
+
+.cover-img {
+  width: 400px;
+  height: 186px;
+  object-fit: cover;
+}
+.back-home {
+  justify-content: center;
+  display: flex;
+}
+
+.cover-img {
+  height: 193px;
+  z-index: 0;
+}
+
+.spotify-profile-container {
+  border: 1px solid;
+}
+
+.profile-header {
+  margin-top: 86px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #1db954;
+  margin-bottom: 10px;
+  z-index: 1;
+  margin-top: -236px;
+}
+
+.username {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+.followers {
+  color: #b3b3b3;
+}
+
+.playlist-section {
+  padding: 20px;
+}
+
+.playlist-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.playlist-card {
+  text-align: center;
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+}
+
+.playlist-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.playlist-nom {
+  margin-top: 5px;
+  color: #b3b3b3;
+}

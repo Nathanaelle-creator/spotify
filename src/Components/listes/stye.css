@@ -1,0 +1,231 @@
+
+body{
+    background: black;
+    display: flex;
+  justify-content: center;
+  }
+h1{
+    color:#00FF7F;
+}
+.btn{
+    color: #00FF7F;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid #00FF7F;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color:#00FF7F;
+    color: white;
+}
+p{
+    color: white;
+}
+.card{
+    display: flex;
+    box-shadow: 0px 15px 60px #00FF7F;
+    background-color: #161616;
+    outline: 1px solid #2b9962;
+    border-radius: 10px;
+    position: relative;
+    margin: 150px;
+    color: white;
+    
+}
+
+.genre{
+    box-shadow: 0px 15px 60px #00FF7F;
+    
+}
+.dispo{
+    
+    display: inline-flex;
+    word-wrap: break-word;
+    flex-direction: row;
+    
+}
+.image{
+    height: 20px;
+    width: 20px;;
+}
+.titre{
+    display: inline-flex;
+    
+    margin: 10px;
+}
+li{
+    list-style-type: none;
+}
+.albumimage{
+    height: 400px;
+    width: 400px;
+}
+.test{
+    display: flex;
+
+}
+.page-link{
+  background-color: black;
+  color: #00FF7F;
+  display: flex;
+  justify-items: center;
+  
+
+}
+
+
+nav ul{
+    display:inline-flex ;
+    gap: 50px;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding-left: 45%;
+    z-index: 1000;
+    justify-content: center;
+}
+nav ul a{
+    color: #00FF7F;
+    background-color: transparent;
+    font-size: 14px;
+    padding:  10px;
+    outline: 1px solid #00FF7F;
+    border-radius: 8px;
+}
+
+
+.pagination{
+    
+    display: grid;
+    grid-template-columns: repeat(15, 1fr); /* 15 colonnes de largeur égale */
+    grid-template-rows: repeat(20, auto);
+
+    list-style: none;
+    padding: 0;
+}
+.pagination a{
+    
+    width: 44px;
+}
+/*Style de l'album */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+  }
+  
+  .nav1 {
+   
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .styleul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .styleul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .styleul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .Ae {
+    padding: 1rem;
+    background-color: #007bff;
+  }
+  
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border-radius: 20px;
+   
+    
+  }
+  
+  .albumstyle {
+    background-color:black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 350px;
+    text-align: center;
+        max-width: 350px;
+        width: 100%;
+        box-sizing: border-box;
+
+  }
+  
+  .albumstyle img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .titreAl {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .textAl {
+    font-size: 1rem;
+  color: white;
+  word-wrap: break-word;         /* Casse les mots trop longs */
+  white-space: normal;           /* Permet les retours à la ligne */
+  overflow-wrap: break-word;     /* Support plus large */
+  max-width: 100%;               /* Empêche de dépasser le parent */
+  padding: 0.5rem;    
+  }
+  
+  .lecteurA {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lecteurA h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .lecteurA li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .lecteurA li:hover {
+    text-decoration: underline;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+

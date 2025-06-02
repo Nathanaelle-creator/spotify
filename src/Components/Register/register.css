@@ -1,0 +1,90 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.register-container {
+  display: grid;
+  place-items: center;
+  width: 400px;
+  height: 600px;
+  padding: 25px;
+  background-color: #161616;
+  box-shadow: 0px 15px 60px #00FF7F;
+  outline: 1px solid #2b9962;
+  border-radius: 10px;
+  position: relative;
+  margin: 150px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 70%;
+  padding: 11px 25px;
+  background: transparent;
+  border: 1px solid #e3e3e3;
+  line-height: 1;
+  border-radius: 8px;
+  color: #00FF7F;
+  font-size: 13px;
+}
+
+input:focus {
+  border: 1px solid #00FF7F;
+  outline: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  color: #00FF7F;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 14px 13px 12px 13px;
+  border: 0;
+  outline: 1px solid #00FF7F;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+  background-color: #00FF7F;
+  color: #161616;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
